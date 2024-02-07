@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded"), function () {
     // optionally update when fields update
     document.getElementById('name').addEventListener('change', function (eventData) {
       let nameOutput = document.getElementById('nameOutput');
-      console.log(eventData);
+      // console.log(eventData);
       nameOutput.innerText = eventData.target.value;
     });
     document.getElementById('type').addEventListener('change', function (eventData) {
